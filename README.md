@@ -13,3 +13,19 @@ Go to the website and create your API key to use this project.(https://home.open
 6.on/of switch
 
 # The connection diagram has been provided for easy wiring and setup.
+
+# Add your API key and WiFi credentials in the code before uploading:
+
+const char* wifiSsid    = "your_wifi_name";
+const char* wifiPass    = "your_wifi_password";
+const char* apiKey      = "your_api_key";
+const char* city        = "Pune";
+const char* countryCode = "IN";
+const char* tzString    = "IST-5:30";
+
+Alternatively, you can use the configuration portal: //192.168.4.1//
+Connect to the WiFi network "DeskBuddy"
+using the password "123456789",
+Then open http://192.168.4.1 in your browser to configure WiFi credentials and API key.
+
+
